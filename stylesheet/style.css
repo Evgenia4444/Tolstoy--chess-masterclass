@@ -102,7 +102,7 @@ body {
 
 }
 
-.grid-item1, .grid-item3 {
+.grid-item1 {
   position: relative;
   width: 160px;
   height: 160px;
@@ -219,16 +219,17 @@ justify-content: center;
   left: calc(50% - 80px);
   top: calc(50% - 110px);
   animation-name: rotateimage3;
-  animation-duration: 4s;
+  animation-duration: 1s;
   animation-play-state: paused;
 }
 
-#image3:active, .#image3:hover  {
+#image3:active {
   animation-play-state: running;
 }
 
 @keyframes rotateimage3 {
-
+0% {transform: rotate(0deg);}
+0% {transform: rotate(360deg);}
 }
 
 
@@ -243,12 +244,32 @@ justify-content: center;
   top: calc(50% - 100px);
 }
 
+
+#image4:active {
+  animation-play-state: running;
+}
+
+@keyframes rotateimage4 {
+0% {transform: rotate(0deg);}
+0% {transform: rotate(360deg);}
+}
+
 #image5 {
   position: absolute;
   justify-content: center;
   display: inline-block;
   left: calc(50% - 90px);
   top: calc(50% - 100px);
+}
+
+
+#image5:active {
+  animation-play-state: running;
+}
+
+@keyframes rotateimage5 {
+0% {transform: rotate(0deg);}
+0% {transform: rotate(360deg);}
 }
 
 #image6 {
@@ -261,6 +282,16 @@ justify-content: center;
   top: calc(50% - 110px);
 }
 
+
+#image6:active {
+  animation-play-state: running;
+}
+
+@keyframes rotateimage6 {
+0% {transform: rotate(0deg);}
+0% {transform: rotate(360deg);}
+}
+
 #image7 {
   position: absolute;
   justify-content: center;
@@ -268,6 +299,16 @@ justify-content: center;
   left: calc(50% - 94px);
   top: calc(50% - 110px);
 
+}
+
+
+#image7:active {
+  animation-play-state: running;
+}
+
+@keyframes rotateimage7 {
+0% {transform: rotate(0deg);}
+0% {transform: rotate(360deg);}
 }
 
 #image8 {
@@ -280,12 +321,32 @@ justify-content: center;
   top: calc(50% - 110px);
 }
 
+
+#image8:active {
+  animation-play-state: running;
+}
+
+@keyframes rotateimage8 {
+0% {transform: rotate(0deg);}
+0% {transform: rotate(360deg);}
+}
+
 #image9 {
   position: absolute;
   justify-content: center;
   display: inline-block;
   left: calc(50% - 76px);
   top: calc(50% - 110px);
+}
+
+
+#image9:active {
+  animation-play-state: running;
+}
+
+@keyframes rotateimage9 {
+0% {transform: rotate(0deg);}
+0% {transform: rotate(360deg);}
 }
 
 #image10 {
@@ -296,6 +357,16 @@ justify-content: center;
   display: inline-block;
   left: calc(50% - 108px);
   top: calc(50% - 110px);
+}
+
+
+#image10:active {
+  animation-play-state: running;
+}
+
+@keyframes rotateimage10 {
+0% {transform: rotate(0deg);}
+0% {transform: rotate(360deg);}
 }
 
 .grid-container-3{
@@ -343,13 +414,30 @@ justify-content: center;
 }
 
 .container-info {
-  display: grid;
+  width: 30%;
+  display: flex;
   grid-template-columns: repeat(3, 1fr) ;
   grid-template-rows: repeat(3, 1fr);
-  justify-content: left;
+  justify-content: center;
   grid-gap: 0;
 
-  z-index: 13;
-  top: 1200px;
+
+  z-index: 14;
+  top: 800px;
   left: 320px;
+}
+
+
+/* media query */
+@media (max-width: 320px) {
+  .grid-container1 {
+
+    z-index: 1;
+    height: 960px;
+
+    display: grid;
+    grid-template-columns: repeat(8, 1fr) ;
+    grid-template-rows: repeat(14, 1fr);
+    grid-gap: 0;
+    justify-content: center;
 }
