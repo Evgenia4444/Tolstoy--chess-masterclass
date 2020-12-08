@@ -62,8 +62,9 @@ body {
 .triangle2 {
   position: relative;
   left: 430px;
-  top: 500px;
+  top: 460px;
   z-index: 16;
+  display: inline-block;
 }
 
 .item-bubble3 {
