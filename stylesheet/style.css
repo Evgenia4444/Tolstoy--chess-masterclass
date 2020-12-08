@@ -1,9 +1,9 @@
 body {
   background-color: white;
   font-family: 'Roboto' sans-serif;
-  margin: auto 0;
+  margin: 0;
   width: 1280px;
-  height: 100%;
+  height: auto;
 }
 
 
@@ -438,7 +438,7 @@ justify-content: center;
 
 .container-info {
   width: 30%;
-  display: flex;
+  display: grid;
   grid-template-columns: repeat(3, 1fr) ;
   grid-template-rows: repeat(3, 1fr);
   justify-content: center;
@@ -463,4 +463,11 @@ justify-content: center;
     grid-template-rows: repeat(14, 1fr);
     grid-gap: 0;
     justify-content: center;
+}
+
+
+.grid-item4 {
+  position: absolute;
+  width: 160px;
+  height: 160px;
 }
