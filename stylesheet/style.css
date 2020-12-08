@@ -176,7 +176,6 @@ justify-content: center;
 
 .line2 {
   display: flex;
-  margin-top: 1300px;
 }
 
 .image1 {
@@ -472,6 +471,9 @@ justify-content: center;
 }
 
 .basmannaya {
+  position: absolute;
+  width: 300px;
+  z-index: 17;
 }
 
 .container-info {
