@@ -304,9 +304,15 @@ justify-content: center;
 
   display: grid;
   grid-template-columns: repeat(8, 1fr) ;
-  grid-template-rows: repeat(14, 1fr);
+  grid-template-rows: repeat(6, 1fr);
   justify-content: center;
-grid-gap: 0;
+
+}
+
+.grid-item3 {
+  position: relative;
+  width: 160px;
+  height: 160px;
 }
 
 #image11 {
@@ -334,4 +340,16 @@ grid-gap: 0;
 }
 
 .basmannaya {
+}
+
+.container-info {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr) ;
+  grid-template-rows: repeat(3, 1fr);
+  justify-content: left;
+  grid-gap: 0;
+
+  z-index: 13;
+  top: 1200px;
+  left: 320px;
 }
