@@ -87,6 +87,8 @@ width: 100%;
 }
 
 
+/* CONTAINERS */
+
 .grid-container1 {
 
   z-index: 1;
@@ -211,6 +213,8 @@ justify-content: center;
   height: 215.3px;
   justify-content: center;
   display: inline-block;
+  left: calc(50% - 100px);
+  top: calc(50% - 140px);
 }
 
 
@@ -220,7 +224,7 @@ justify-content: center;
   height: 215.15px;
   justify-content: center;
   display: inline-block;
-  left: calc(50% - 100px);
+  left: calc(50% - 110px);
   top: calc(50% - 100px);
 }
 
@@ -228,7 +232,7 @@ justify-content: center;
   position: absolute;
   justify-content: center;
   display: inline-block;
-  left: calc(50% - 100px);
+  left: calc(50% - 90px);
   top: calc(50% - 100px);
 }
 
