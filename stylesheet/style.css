@@ -476,6 +476,17 @@ justify-content: center;
   z-index: 17;
 }
 
+.phonenumber {
+  position: absolute;
+  width: 186px;
+  z-index: 18;
+}
+.zhdyom {
+  position: absolute;
+  width: 778px;
+  z-index: 19;
+}
+
 .container-info {
   width: 30%;
   display: grid;
