@@ -59,11 +59,60 @@ body {
   justify-content: center;
 }
 
+
+.triangle1 {
+  position: absolute;
+  left: 10px;
+  top: 17em;
+  z-index: 19;
+  display: inline-block;
+}
+
 .triangle2 {
-  position: relative;
-  left: 430px;
-  top: 460px;
-  z-index: 16;
+  position: absolute;
+  left: 18em;
+  top: 7em;
+  z-index: 20;
+  display: inline-block;
+}
+
+.triangle3 {
+  position: absolute;
+  left: 3.2em;
+  top: 7em;
+  z-index: 21;
+  display: inline-block;
+}
+
+.triangle4 {
+  position: absolute;
+  left: 28em;
+  top: 16em;
+  z-index: 22;
+  display: inline-block;
+}
+
+.triangle5 {
+  position: absolute;
+  left: 800px;
+  top: 1666,29px;
+  z-index: 23;
+  display: inline-block;
+}
+
+.triangle6 {
+  position: absolute;
+  left: 410,49px;
+  top: 1813,7px;
+  z-index: 24;
+  display: inline-block;
+}
+
+.triangle7 {
+  position: absolute;
+  left: 42em;
+  top: 2074,2px;
+  z-index: 25;
   display: inline-block;
 }
 
@@ -108,9 +157,9 @@ body {
   z-index: 8;
   left: 321px;
   top: 1600px;
-    display: inline-block;
-    position: absolute;
-    justify-content: center;
+  display: inline-block;
+  position: absolute;
+  justify-content: center;
 }
 
 .item-bubble7 {
@@ -187,7 +236,20 @@ justify-content: center;
   align-items: center;
   left: calc(50% - 40px);
   top: calc(50% - 40px);
+  animation-name: whiteladya;
+  animation-duration: 1s;
+  animation-play-state: paused;
+}
 
+.whiteladya:hover {
+  animation-play-state: running;
+}
+
+@keyframes whiteladya {
+  0% {top: 673px; left: 48px;}
+  33% {top: 673px; left: 208px; }
+  66% {top: 673px; left: 368px; }
+  100% {top: 833px; left: 368px; }
 }
 
 .animationwhiteladya {
@@ -202,16 +264,6 @@ justify-content: center;
   animation-play-state: paused;
 }
 
-.animationwhiteladya:active, .animationwhiteladya:hover{
-  animation-play-state: running;
-}
-
-@keyframes animationwhiteladya {
-  0% {top: 673px; left: 48px;}
-  33% {top: 673px; left: 208px; }
-  66% {top: 673px; left: 368px; }
-  100% {top: 833px; left: 368px; }
-}
 
 
 
@@ -237,7 +289,7 @@ justify-content: center;
   animation-play-state: paused;
 }
 
-.animationkoroleva:active {
+.animationkoroleva:hover {
   animation-play-state: running;
 }
 
@@ -261,7 +313,7 @@ justify-content: center;
   animation-play-state: paused;
 }
 
-#image3:active {
+#image3:hover {
   animation-play-state: running;
 }
 
@@ -287,7 +339,7 @@ justify-content: center;
 }
 
 
-#image4:active {
+#image4:hover {
   animation-play-state: running;
 }
 
@@ -308,7 +360,7 @@ justify-content: center;
 }
 
 
-#image5:active {
+#image5:hover {
   animation-play-state: running;
 }
 
@@ -331,7 +383,7 @@ justify-content: center;
 }
 
 
-#image6:active {
+#image6:hover {
   animation-play-state: running;
 }
 
@@ -352,7 +404,7 @@ justify-content: center;
 }
 
 
-#image7:active {
+#image7:hover {
   animation-play-state: running;
 }
 
@@ -375,7 +427,7 @@ justify-content: center;
 }
 
 
-#image8:active {
+#image8:hover {
   animation-play-state: running;
 }
 
@@ -396,7 +448,7 @@ justify-content: center;
 }
 
 
-#image9:active {
+#image9:hover {
   animation-play-state: running;
 }
 
@@ -419,7 +471,7 @@ justify-content: center;
 }
 
 
-#image10:active {
+#image10:hover {
   animation-play-state: running;
 }
 
