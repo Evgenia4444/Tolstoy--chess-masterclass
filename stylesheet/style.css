@@ -236,12 +236,12 @@ justify-content: center;
   align-items: center;
   left: calc(50% - 40px);
   top: calc(50% - 40px);
-  animation-name: whiteladya;
-  animation-duration: 1s;
-  animation-play-state: paused;
+  /* animation-name: whiteladya;
+  animation-duration: 4s;
+  animation-play-state: paused; */
 }
 
-.whiteladya:hover {
+.image1:hover {
   animation-play-state: running;
 }
 
@@ -252,7 +252,7 @@ justify-content: center;
   100% {top: 833px; left: 368px; }
 }
 
-.animationwhiteladya {
+/* .animationwhiteladya {
   width: 480px;
   height: 320px;
   top: 673px;
@@ -262,7 +262,7 @@ justify-content: center;
   animation-name: animationwhiteladya;
   animation-duration: 4s;
   animation-play-state: paused;
-}
+} */
 
 
 
@@ -275,9 +275,23 @@ justify-content: center;
   display: inline-block;
   left: calc(50% - 40px);
   top: calc(50% - 40px);
+  animation-name: koroleva;
+  animation-duration: 4s;
+  animation-play-state: paused;
 }
 
-.animationkoroleva {
+.image2:hover {
+  animation-play-state: running;
+}
+
+@keyframes koroleva {
+  0% {top: 840px; left: 1155px;}
+    33% {top: 680px; left: 1155px; }
+    66% {top: 522px; left: 1155px; }
+    100% {top: 520px; left: 1000px; }
+}
+
+/* .animationkoroleva {
   width: 320px;
   height: 480px;
   top: 840px;
@@ -287,18 +301,9 @@ justify-content: center;
   animation-name: animationkoroleva;
   animation-duration: 4s;
   animation-play-state: paused;
-}
+} */
 
-.animationkoroleva:hover {
-  animation-play-state: running;
-}
 
-@keyframes animationkoroleva {
-0% {top: 840px; left: 1155px;}
-  33% {top: 680px; left: 1155px; }
-  66% {top: 522px; left: 1155px; }
-  100% {top: 520px; left: 1000px; }
-}
 
 #image3 {
   position: relative;
