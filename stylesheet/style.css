@@ -154,7 +154,7 @@ body {
   background-color: #FFC6C6;
   width: 674px;
   height: 160px;
-  z-index: 8;
+  z-index: 5;
   left: 321px;
   top: 1600px;
   display: inline-block;
@@ -227,6 +227,15 @@ justify-content: center;
   display: flex;
 }
 
+.whiteladya {
+  height: 300px;
+width: 640px;
+}
+
+.whiteladya:hover {
+animation-play-state: running;
+}
+
 .image1 {
   position: absolute;
   width: 64.23px;
@@ -241,9 +250,9 @@ justify-content: center;
   animation-play-state: paused;
 }
 
-.image1:hover {
+/* .image1:hover {
   animation-play-state: running;
-}
+} */
 
 @keyframes whiteladya {
   0% {top: 1em; left: 0.2em;}
