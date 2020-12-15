@@ -88,7 +88,7 @@ body {
   position: absolute;
   left: 28em;
   top: 16em;
-  z-index: 22;
+  z-index: 101;
   display: inline-block;
 }
 
@@ -96,15 +96,15 @@ body {
   position: absolute;
   left: 800px;
   top: 1666,29px;
-  z-index: 23;
+  z-index: 110;
   display: inline-block;
 }
 
 .triangle6 {
   position: absolute;
-  left: 410,49px;
-  top: 1813,7px;
-  z-index: 24;
+  left: 370px;
+  top: 1813,1px;
+  z-index: 100;
   display: inline-block;
 }
 
@@ -131,7 +131,7 @@ body {
   background-color: #FFC6C6;
   width: 894px;
   height: 320px;
-  z-index: 6;
+  z-index: 90;
   left: 321px;
   top: 960px;
   position: absolute;
@@ -154,7 +154,7 @@ body {
   background-color: #FFC6C6;
   width: 674px;
   height: 160px;
-  z-index: 5;
+  z-index: 80;
   left: 321px;
   top: 1600px;
   display: inline-block;
